@@ -1,6 +1,6 @@
 {
   "name": "binsort",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A streaming binary sorting tool written in C++",
   "scripts": {
     "preinstall": "make"
