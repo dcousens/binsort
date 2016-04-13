@@ -5,6 +5,8 @@
 
 A streaming binary sorting tool,  pipes `stdin` to `stdout`,  sorted.
 
+Uses OpenMP for high performance.
+
 
 ## Examples
 
