@@ -37,8 +37,6 @@ int main (int argc, char** argv) {
 	assert(compareOffset < totalBytes);
 
 	std::vector<uint8_t*> vector;
-
-	// TODO: alloc into 1 huge buffer
 	while (true) {
 		const auto slice = new uint8_t[totalBytes];
 		const auto read = fread(slice, totalBytes, 1, stdin);
