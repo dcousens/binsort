@@ -56,7 +56,7 @@ int main (int argc, char** argv) {
 
 	for (auto&& slice : vector) {
 		fwrite(slice, totalBytes, 1, stdout);
-		delete[] slice;
+// 		delete[] slice;
 	}
 
 	return 0;
