@@ -22,3 +22,5 @@ cat data.dat | binsort 16 32
 // sort by bytes [16:24] (8 bytes), in 32 byte chunks
 cat data.dat | binsort 16 24 32
 ```
+
+## LICENSE [MIT](LICENSE)
