@@ -3,7 +3,7 @@ A streaming binary sorting tool,  pipes `stdin` to `stdout`,  sorted.
 
 Byte-for-byte, simple, **not UTF8 aware** (thankfully).
 
-Uses OpenMP for high performance.
+Uses OpenMP for multi-threading.
 
 
 ## Examples
